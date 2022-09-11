@@ -1,0 +1,215 @@
+.site1{
+    margin:auto;
+    background-image: url(sekiller/blog.jpg);
+}
+.body1{
+    margin: auto;
+}
+li {
+    margin: 0%;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding-inline-start:20px;
+}
+li a {
+    color: aliceblue;
+    font-family: Arial;
+    border: 2px solid #ffffff;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 20px;
+    border-radius: 50px;
+}
+.navbar {
+    background-color: black;
+    color: beige;
+}
+.logo h1 {
+    font-family: Arial;
+    text-align: center;
+    margin: 0%;
+    padding:3px;
+}
+ul li {
+    text-align: right;
+    padding: 5px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    line-height: 50px;
+}
+.text {
+    text-align: center;
+    font-family: Arial;
+    font-size: larger;
+    color: #ffffff;
+}
+.text h2 {
+    padding: 20px;
+}
+.text button {
+  border: 15px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: auto;
+  background-color: #04AA6D;
+}
+.site2 {
+    margin:auto;
+    background-color: blueviolet;
+}
+.text1 {
+    text-align: center;
+    font-family: arial;
+    font-size: larger;
+    color: #ffffff;
+}
+.text1 h2 {
+    font-size: 20px;
+}
+.text1 button {
+    border: 15px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+    background-color: #04AA6D;
+}
+.site3 {
+    margin:auto;
+    background-color: rgb(0, 110, 255);
+    font-family: Arial;
+}
+.login h1 {
+    text-align: center;
+}
+.login {
+    margin: 20px;
+    background-color: white;
+    border: 20px;
+    border-radius: 20px;
+}
+.button1 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 20px;
+    margin: 5px 0;
+    border: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+    border-radius: 20px;
+}
+.button2 {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    margin: 5px 0;
+    border: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+    border-radius: 20px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    font-size: large;
+    border-radius: 20px;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+.site4 {
+    margin:auto;
+    background-color: rgb(0, 217, 255);
+    font-family: Arial;
+}
+.site5 {
+    margin: auto;
+    background-color: rgb(25, 81, 131);
+    font-family: Arial;
+}
+.blogs11 {
+    border: 3px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.blogs11 h1 {
+    text-align: center;
+}
+.blogs11 h2 {
+    text-align: center;
+}
+.boxsize {
+    padding: 10px 10px;
+    float: left;
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+    height: auto;
+}
+.box img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.box h2 {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    * {
+        box-sizing: border-box;
+    }
+      
+}
+.button3 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 20px 20px;
+    margin: auto;
+    border: 1px;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 700px) {
+    .boxsize {
+      margin: 5px 5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .boxsize {
+      width: 100%;
+      margin: 5px -10px;
+    }
+}
+.blogs1 {
+    margin:auto;
+    background-color: rgb(95, 67, 121);
+}
